@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tasata/homa_view.dart';
 
 void main(List<String> args) {
   runApp(const Albayan());
@@ -9,7 +10,7 @@ class Albayan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(),
+      home: Scaffold(body:HomeView()),
     );
   }
 }
