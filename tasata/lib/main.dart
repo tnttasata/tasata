@@ -1,35 +1,15 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
+void main(List<String> args) {
+  runApp(const Albayan());
 }
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class Albayan extends StatelessWidget {
+  const Albayan({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp( 
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        //////ssssssssssssssssssss
-//taha_fakhoury
-//salimo
-//tahakkkkkkkkkkkkkkkk
-//salimo love you
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const MyWidget(),
+    return const MaterialApp(
+      home: Scaffold(),
     );
-  }
-}
-
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
   }
 }
