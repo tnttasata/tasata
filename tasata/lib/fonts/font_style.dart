@@ -1,0 +1,11 @@
+import 'package:flutter/material.dart';
+import 'package:tasata/const.dart';
+
+class FontStyleApp {
+  static const textStyleOrange15 = TextStyle(
+      fontWeight: FontWeight.normal, fontSize: 15, color: kOrangeColor);
+  static const textStyleOrangeBold25 =
+      TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: kOrangeColor);
+  static const textStylewite15 = TextStyle(
+      fontWeight: FontWeight.normal, fontSize: 15, color: Colors.white);
+}
